@@ -1,3 +1,160 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-stretch {
+  align-items:stretch;
+}
+
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.pt-4 {
+  padding-top: 16px;
+}
+
+.pb-4 {
+  padding-bottom: 16px;
+}
+
+.pt-12 {
+  padding-top: 48px;
+}
+
+.py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-8 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.pt-24 {
+  padding-top: 96px;
+}
+
+.pb-20 {
+  padding-bottom: 80px;
+}
+
+//---
+
+.container {
+  max-width: 1296px;
+  width: 100%;
+}
+
 .index-title {
-  font-size: 100px;
+  border-left: 8px solid #9F1213;
+  font-size: 48px;
+  line-height: 72px;
+  padding-left: 16px;
+}
+
+.outter-wrap {
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+
+.location {
+  font-size: 24px;
+  padding-top: 33px;
+  padding-bottom: 41px;
+  select {
+    color: #495057;
+    font-size: 18px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+    margin-left: 16px;
+    width: 304px;
+    height: 38px;
+  }
+}
+
+.location-content {
+  width: calc(33.333333% - 16px);
+  margin-bottom: 48px;
+  margin-right: 24px;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  h2, .info, .button {
+    border: 1px solid #00000020;
+    color: #212529;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 8px 24px;
+  }
+  .info {
+    padding: 16px 24px;
+    li {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 8px;
+    }
+  }
+  .button {
+    display: block;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .material-symbols-outlined {
+    vertical-align: middle;
+    margin-right: 11px;
+  }
 }
