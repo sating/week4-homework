@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.page-item {
+  &:first-child, &:last-child {
+    .page-link {
+      padding: 12px;
+    }
+  }
+  &.active {
+    .page-link {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+  }
+}
+.page-link {
+  position: relative;
+  display: block;
+  color: #555555;
+  border: 1px solid #555555;
+  padding: 12px 16px;
+  margin-left: -1px;
+  font-size: 19px;
+  line-height: 29px;
+  &:hover {
+    background-color: #F2F2F2;
+  }
+}

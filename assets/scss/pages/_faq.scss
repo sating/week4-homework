@@ -1,0 +1,21 @@
+.faq {
+  &-title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 24px;
+  }
+  &-q {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  &-a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

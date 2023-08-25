@@ -91,11 +91,12 @@ body {
   width: 100%;
 }
 
-.index-title {
+.main-title {
   border-left: 8px solid #9F1213;
   font-size: 48px;
   line-height: 72px;
   padding-left: 16px;
+  margin-bottom: 32px;
 }
 
 .outter-wrap {
@@ -105,7 +106,6 @@ body {
 
 .location {
   font-size: 24px;
-  padding-top: 33px;
   padding-bottom: 41px;
   select {
     color: #495057;
